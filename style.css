@@ -250,3 +250,89 @@ button:hover{ transform:translateY(-4px); box-shadow:0 0 25px rgba(179,123,4,.55
     from{ opacity:0; transform:translateY(15px); }
     to{ opacity:1; transform:translateY(0); }
 }
+/* ==========================================
+      RESPONSIVE - CELULARES
+========================================== */
+
+@media (max-width: 600px){
+
+    .pantalla, .hero{
+        align-items:flex-start;
+        overflow-y:auto;
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+
+    .fecha{
+        font-size:15px;
+        letter-spacing:3px;
+        margin-bottom:15px;
+    }
+
+    .hero h2{ font-size:26px; }
+    .hero h1{ font-size:42px; margin-bottom:20px; }
+    .hero h3{ font-size:30px; margin-bottom:20px; }
+
+    .subtitulo{ font-size:16px; }
+
+    button{
+        margin-top:30px;
+        padding:14px 28px;
+        font-size:15px;
+    }
+
+    .frase{ font-size:26px; width:90%; }
+
+    .carta{
+        padding:35px 20px;
+        min-height:auto;
+        width:95%;
+    }
+
+    .carta p{ font-size:18px; line-height:1.6; }
+    .carta h3{ font-size:28px; }
+
+    #regalo{
+        height:auto;
+        min-height:100vh;
+        overflow-y:auto;
+        padding:40px 15px;
+    }
+
+    .regalo-titulo{ font-size:20px; }
+    .regalo-hotel{ font-size:22px; }
+    .regalo-ubicacion{ font-size:12px; }
+    .regalo-detalle{ font-size:13px; }
+
+    .servicios-incluidos span{
+        font-size:10px;
+        padding:5px 10px;
+    }
+
+    .galeria img{
+        width:50px;
+        height:50px;
+    }
+
+    .logo-hotel{
+        width:60px;
+        height:60px;
+    }
+
+    .boton-corazon{
+        font-size:32px;
+        bottom:15px;
+        left:15px;
+    }
+
+    .boton-musica{
+        width:45px;
+        height:45px;
+        font-size:18px;
+        bottom:15px;
+        right:15px;
+    }
+
+    .mensaje-final p{ font-size:22px; }
+    .corazon-final{ font-size:38px; }
+}
