@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Un regalo para mamá ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="contenido">
+        <p class="fecha">15 de julio de 2026</p>
+        <h2>Para la mejor</h2>
+        <h1>MAMÁ DEL MUNDO</h1>
+        <h3>...Feliz Cumpleaños...</h3>
+        <p class="subtitulo">
+            Hay momentos que se recuerdan para siempre...
+            <br><br>
+            Hoy quiero regalarte uno de ellos.
+        </p>
+        <button id="abrir">🎁 DESCUBRE TU REGALO</button>
+    </div>
+</section>
+
+<section id="pausa" class="pantalla oculto">
+    <div class="lluvia" id="lluviaPausa"></div>
+    <div class="centro">
+        <p class="frase">
+            Hay personas que merecen momentos inolvidables...</p>
+            <p class="frase">y vos sos una de ellas.
+        </p>
+    </div>
+</section>
+
+<section id="carta" class="pantalla oculto">
+    <div class="lluvia" id="lluvia"></div>
+    <div class="carta">
+        <p>Mami... feliz cumpleaños.</p>
+        <p>Sos una mujer excepcional y te merecés todo lo bueno del mundo.</p>
+        <p>Gracias por estar siempre para nosotros</p>
+        <p>y por brindarnos todo tu amor y dedicación.</p>
+        <p>Sé que este regalo no es mucho en comparación con todo lo que me das,</p>
+        <p>pero espero de corazón que lo disfrutes.</p>
+        <p>Quiero que dediques un poco de tiempo para vos, descanses y vivas un día diferente.</p>
+        <p>Te amo muchísimo.</p>
+        <h3>Vero ❤️</h3>
+        <button id="continuar">Descubrir mi regalo 🎁</button>
+    </div>
+</section>
+
+<section id="regalo" class="pantalla oculto">
+    <div class="regalo-contenido">
+        <p class="fecha">Tu regalo es...</p>
+        <h2 class="regalo-titulo">una estadía en</h2>
+        <img src="img/1.jpg" alt="Logo Termas Hotel San Gerónimo" class="logo-hotel">
+        <h3 class="regalo-hotel">Termas Hotel San Gerónimo</h3>
+        <p class="regalo-ubicacion">📍 San Gerónimo, San Luis, Argentina</p>
+        <p class="regalo-detalle">
+            1 noche para 2 personas · Media pensión<br>
+            (Desayuno + almuerzo o cena)
+        </p>
+        <div class="servicios-incluidos">
+            <span>🏊 Piscinas termales cubiertas</span>
+            <span>♨️ Hidromasajes y jacuzzis</span>
+            <span>🛁 Boxs termales </span>
+            <span>💦 Parque acuático</span>
+        </div>
+        <div class="galeria" id="galeria"></div>
+        <button id="botonCorazon" class="boton-corazon">💛</button>
+    </div>
+</section>
+
+<section id="mensajeOculto" class="pantalla oculto">
+    <div class="lluvia" id="lluvia2"></div>
+    <div class="mensaje-final">
+        <p>Espero que disfrutes cada minuto, mami.<br>Te lo merecés todo.</p>
+        <span class="corazon-final">❤️</span>
+    </div>
+</section>
+
+<audio id="musicaFondo" loop>
+    <source src="music/musica.mp3" type="audio/mpeg">
+</audio>
+<button id="botonMusica" class="boton-musica">🔊</button>
+
+<script src="script.js"></script>
+</body>
+</html>
