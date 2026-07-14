@@ -291,10 +291,10 @@ button:hover{ transform:translateY(-4px); box-shadow:0 0 25px rgba(179,123,4,.55
         font-size:50px; width:90%; 
     }
 .carta{
-    background:none;
-    border:none;
-    backdrop-filter:none;
-    box-shadow:none;
+    background:none !important;
+    border:none !important;
+    backdrop-filter:none !important;
+    box-shadow:none !important;
     padding:20px;
     width:95%;
     min-height:auto;
